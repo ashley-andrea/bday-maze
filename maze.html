@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self';
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data:;
+        font-src 'self';
+        connect-src 'self';
+    "
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="maze.css" />
+  </head>
+  <body>
+    <div class="custom-title-bar">
+      <p class="title-text customfont">Wish u an aMAZEing b-day &lt;3</p>
+      <div class="window-controls">
+        <img
+          id="minimize-maze"
+          src="assets/Minimize button 2.PNG"
+          alt="Minimize button"
+        />
+        <img
+          id="close-maze"
+          src="assets/Close button 2.PNG"
+          alt="Close button"
+        />
+      </div>
+    </div>
+    <div class="maze-page">
+      <div id="maze-container">
+        <canvas id="mazeCanvas" width="700" height="700"></canvas>
+      </div>
+    </div>
+    <script src="maze.js"></script>
+  </body>
+</html>
