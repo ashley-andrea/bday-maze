@@ -16,7 +16,7 @@ Lightweight, single-page files, and a handcrafted maze layout, perfect for a tin
 Clone the repo and run locally (no global Electron needed):
 
 ```bash
-git clone https://github.com/ashley-andrea/bday-maze 
+git clone https://github.com/ashley-andrea/bday-maze.git 
 cd bday-maze
 
 # install deps
